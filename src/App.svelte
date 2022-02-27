@@ -137,6 +137,7 @@
   }
 
   .password span {
+    display: inline-block;
     font-size: 2rem;
     font-weight: bold;
     border: 0.5rem solid var(--green);
@@ -146,6 +147,8 @@
     user-select: all;
     line-height: 3rem;
     cursor: text;
+    min-width: 30rem;
+    height: 3rem;
   }
 
   .password span.hidden {
